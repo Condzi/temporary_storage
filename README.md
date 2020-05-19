@@ -26,14 +26,14 @@ Put the instance in your `Application` class (or somwhere similar). I assume tha
 class My_Application
 {
 public:
-    My_Application()
+    My_Application();
     // main game loop, etc...
-    void run()
+    void run();
 
 private:
     void* all_aplication_memory;
     con::Temporary_Storage ts;
-}
+};
 
 My_Application::My_Application()
 {
