@@ -79,7 +79,8 @@ void print_some_stuff()
     // no free(buffer) call -- buffer memory will be cleared at the beginning of the next frame
 }
 ```
-**ToDo**: Add more examples (with usage of `set_mark`).
+### The mark
+Mark is just amount of bytes used by the Storage object. You can set it to your own value, check out `example/example.cpp`.  
 
 ## Inspiration
 This is a rough implementation of the idea from Jai language. You can watch Jonathan Blow video about that: [here](https://www.youtube.com/watch?v=SSVHWrYG974&t=133s).
