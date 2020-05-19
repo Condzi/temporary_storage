@@ -2,6 +2,8 @@
 
 namespace con
 {
+Temporary_Storage* Temporary_Storage::instance = nullptr;
+
 void Temporary_Storage::set_instance( Temporary_Storage* instance_ )
 {
 	instance = instance_;

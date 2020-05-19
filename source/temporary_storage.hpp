@@ -38,7 +38,7 @@ public:
 
 private:
 	// @ToDo: Maybe not everyone want to use singleton pattern, consider adding a macro?
-	static inline Temporary_Storage* instance = nullptr;
+	static Temporary_Storage* instance;
 
 	void* data = nullptr;
 	int32_t size = -1;
